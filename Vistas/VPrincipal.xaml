@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jlicuyT1.Vistas.VPrincipal"
+             Title="VPrincipal">
+    <VerticalStackLayout>
+        
+
+        <Label Text="Registro de Aportes al IESS" 
+           HorizontalOptions="Center" 
+           FontAttributes="Bold" 
+           FontSize="Large"/>
+        
+        <Entry x:Name="nombreIngresado"
+               Placeholder="Nombre"/>
+
+        <Entry x:Name="apellidoIngresado"
+       Placeholder="Apellido"/>
+
+        <Entry x:Name="edadIngresado" 
+           Placeholder="Edad"
+           Keyboard="Numeric"/>
+        
+        <Entry x:Name="salarioIngresado" 
+            Placeholder="Salario"
+            Keyboard="Numeric"/>
+        
+        <Button x:Name="BtnCalcular"
+            Text="Calcular el aporte al IESS"
+                Clicked="BtnCalcular_Clicked"
+              
+                />
+        
+        
+        
+
+    </VerticalStackLayout>
+</ContentPage>
