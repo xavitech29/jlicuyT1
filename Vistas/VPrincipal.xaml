@@ -24,15 +24,10 @@
         <Entry x:Name="salarioIngresado" 
             Placeholder="Salario"
             Keyboard="Numeric"/>
-        
+
         <Button x:Name="BtnCalcular"
             Text="Calcular el aporte al IESS"
                 Clicked="BtnCalcular_Clicked"
-              
                 />
-        
-        
-        
-
     </VerticalStackLayout>
 </ContentPage>
